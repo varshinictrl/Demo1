@@ -1,0 +1,56 @@
+/* --------------------------------- */
+/* 1. ОБЩИЕ СТИЛИ СТРАНИЦЫ (С ЛАЗУРНЫМ ФОНОМ) */
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    /* ЛАЗУРНЫЙ ФОН (Light Cyan - мягче, чем чистый лазурный) */
+    background-color: #E0FFFF; 
+    
+    color: #333; /* Темно-серый текст */
+    font-size: 18px; /* УВЕЛИЧЕННЫЙ ОСНОВНОЙ ШРИФТ */
+}
+
+/* --------------------------------- */
+/* 2. СТИЛИ ДЛЯ ЗАГОЛОВКОВ (ЦЕНТРИРОВАНИЕ) */
+/* Центрирует текст во ВСЕХ заголовках h1 и h2 */
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: #4B0082; 
+    border-bottom: 2px solid #DDA0DD; 
+    padding-bottom: 10px;
+}
+
+/* --------------------------------- */
+/* 3. СТИЛИ ДЛЯ ИЗОБРАЖЕНИЯ (РАМКА) */
+img {
+    border: 3px solid #DDA0DD; /* РАМКА ВОКРУГ ИЗОБРАЖЕНИЯ */
+    border-radius: 8px; 
+    display: block; 
+    margin: 20px auto; 
+    max-width: 100%; 
+    height: auto;
+}
+
+/* --------------------------------- */
+/* 4. СТИЛИ ДЛЯ СПИСКОВ (УБИРАЕМ МАРКЕРЫ) */
+ul, ol {
+    background-color: #fff; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+    /* Убирает автоматические цифры/маркеры */
+    list-style: none; 
+}
+
+li {
+    margin-bottom: 15px; /* Увеличенный отступ */
+    font-size: 1.05em; /* Немного увеличенный шрифт для списка */
+}
